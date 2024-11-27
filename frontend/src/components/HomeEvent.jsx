@@ -23,11 +23,11 @@ const HomeEvent = ({ event }) => {
         </h1>
         <p className="text-sm md:text-lg text-gray-500">{event.description}</p>
       </div>
-      <div>
+      <div className="flex flex-col items-center justify-center">
         <p>Location:</p>
         <p>{event.location}</p>
       </div>
-      <div>
+      <div className="flex flex-col items-center justify-center">
         <p>Date:</p>
         <p>{event.date}</p>
       </div>
